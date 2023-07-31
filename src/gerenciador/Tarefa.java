@@ -2,6 +2,11 @@ package gerenciador;
 
 public class Tarefa {
 	
+	private String titulo;
+	private String descriçao;
+	private String dataVencimento;
+	private boolean concluida;
+	
 	public Tarefa(String titulo, String descriçao, String dataVencimento) {
 
 		this.titulo = titulo;
@@ -50,10 +55,7 @@ public class Tarefa {
 	}
 
 
-	private String titulo;
-	private String descriçao;
-	private String dataVencimento;
-	private boolean concluida;
+
 	
 	
 }
